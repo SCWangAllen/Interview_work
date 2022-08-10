@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52a02040-2e80-469b-a7ee-e8163229d41d" name="Changes" comment="Data Cleaning 完成">
-      <change beforePath="$PROJECT_DIR$/Q2_DataCleaning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Q2_DataCleaning.ipynb" afterDir="false" />
+    <list default="true" id="52a02040-2e80-469b-a7ee-e8163229d41d" name="Changes" comment="Data Cleaning 並做了些許視覺化。">
+      <change beforePath="$PROJECT_DIR$/.idea/Interview_work.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Interview_work.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Q3_NLP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Q3_NLP.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,17 @@
       <list>
         <option value="Jupyter Notebook" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -40,7 +54,8 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -53,7 +68,11 @@
       <updated>1660020879440</updated>
       <workItem from="1660020880999" duration="173000" />
       <workItem from="1660021061827" duration="31000" />
-      <workItem from="1660021106862" duration="24379000" />
+      <workItem from="1660021106862" duration="30061000" />
+      <workItem from="1660058753463" duration="1311000" />
+      <workItem from="1660098023140" duration="2920000" />
+      <workItem from="1660103436807" duration="541000" />
+      <workItem from="1660105095515" duration="748000" />
     </task>
     <task id="LOCAL-00001" summary="更改宜蘭大學的get_df_list的replace('\u300','')-&gt;replace('\u300',' ')">
       <created>1660024726856</created>
@@ -97,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660039229613</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Data Cleaning 並做了些許視覺化。">
+      <created>1660057297382</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660057297382</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,14 +145,15 @@
     <MESSAGE value="更改中興大學的get_dataframe，將&quot;獲興翼獎學金領獎資格&quot; not in td加進去" />
     <MESSAGE value="更改Chienkio的get_df_list當中&#10;&#10;if alternate 下面的條件&#10;for m in alternate_name:&#10;elm=m.split(&quot;]&quot;)[1]&#10;-&gt;m.split(&quot;]&quot;)[1].split(&quot; &quot;)[0]" />
     <MESSAGE value="Data Cleaning 完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data Cleaning 完成" />
+    <MESSAGE value="Data Cleaning 並做了些許視覺化。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Cleaning 並做了些許視覺化。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>notebook://E:/new_Desktop/python/Interview_work/Q2_DataCleaning.ipynb</url>
-          <line>469</line>
+          <line>493</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
