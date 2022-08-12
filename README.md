@@ -6,7 +6,7 @@ Q1_web_crawler檔為第一題的前兩題之程式檔案。
 
 Q1_3_PDF_crawler檔為第一題的第三小題之程式檔案
 
-Q2_DataCling檔為第二小題之程式檔案
+Q2_DataCleaing檔為第二小題之程式檔案
 
 Q3_NLP為第三題之檔案
 
